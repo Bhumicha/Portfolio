@@ -23,6 +23,8 @@
                     <ul class="nav__list">
                         <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
                         <li class="nav__item"><a href="#resume" class="nav__link">Resume</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+
                     </ul>
                 </div>
 
@@ -38,7 +40,7 @@
                 <div class="home__data">
                     <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Bhumika</span><br> Quality Assurance <br> Engineer</h1>
 
-                    <a href="#" class="button">Contact</a>
+                    <a href="#contact" class="button">Contact</a>
                 </div>
 
                 <div class="home__social">
@@ -63,11 +65,27 @@
              <!--===== Resume =====-->
              <section class="about resume " id="resume">
                 <h2 class="section-title">Resume</h2>
-        <iframe class="pdf" 
-                src=
-"assets/pdfs/Bhumika-Shrestha-Quality-Assurance1.pdf"
-            width="800" height="500">
-        </iframe>
+                <div style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
+                    <iframe width="100%" height="100%"
+                      src="assets/pdfs/Bhumika-Shrestha-Quality-Assurance1.pdf"
+                      frameborder="0" allowfullscreen="" style="position:absolute; top:0; left: 0">
+                    </iframe>
+                  </div>
+                
+            </section>
+             
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=bhumikaashrestha@gmail.com"><input type="button" value="Submit" class="contact__button button"></a>
+                    </form>
+                </div>
             </section>
         
         </main>
@@ -75,7 +93,7 @@
         <!--===== FOOTER =====-->
         <footer class="footer">
     
-            <p class="footer__copy">&#169; Bhumi Shrestha. All rigths reserved</p>
+            <p class="footer__copy">&#169;2024 Bhumi Shrestha. All rigths reserved</p>
         </footer>
 
 
