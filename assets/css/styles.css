@@ -7,7 +7,7 @@
   /*===== Colores =====*/
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
-  --hue-color: 224;
+  --hue-color: 38;
   --first-color: hsl(var(--hue-color), 89%, 60%);
   --second-color: hsl(var(--hue-color), 56%, 12%);
   /*===== Fuente y tipografia =====*/
@@ -68,6 +68,10 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
+}
+.mask2 {
+  -webkit-mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5) 50%);
+  mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5) 50%);
 }
 
 /*===== CLASS CSS ===== */
@@ -211,13 +215,14 @@ img {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 260px;
+  width: 390px;
+  
 }
 .home__blob {
   fill: var(--first-color);
 }
 .home__blob-img {
-  width: 450px;
+  width: 390px;
 }
 
 /*BUTTONS*/
@@ -394,7 +399,7 @@ img {
     bottom: 25%;
   }
   .about__container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     align-items: center;
     text-align: initial;
   }
@@ -494,4 +499,5 @@ body {
     margin: 0;
     padding: 0;
 }
+
 }
