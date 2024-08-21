@@ -125,6 +125,8 @@ img {
   justify-content: space-between;
   align-items: center;
   font-weight: var(--font-semi);
+  background-color: var(--second-color);
+  
 }
 @media screen and (max-width: 767px) {
   .nav__menu {
